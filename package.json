@@ -1,0 +1,49 @@
+{
+  "name": "listen-vue-switch",
+  "version": "1.0.0",
+  "description": "listen-vue-switch 是用于监听vue组件的激活和失活状态的改变的工具",
+  "main": "dist/listen-vue-switch.cjs.js",
+  "module": "dist/listen-vue-switch.esm.js",
+  "types": "types/index.d.ts",
+  "sideEffects": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GuoBinyong/listen-vue-switch"
+  },
+  "keywords": [
+    "listen",
+    "监听",
+    "vue",
+    "switch",
+    "切换",
+    "listen vue switch",
+    "监听状态切换"
+  ],
+  "author": "郭斌勇",
+  "license": "ISC",
+  "files": [
+    "dist/[^.]*",
+    "types/[^.]*"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^7.1.3",
+    "es-expand": "^1.0.11",
+    "rollup": "^2.7.2",
+    "rollup-plugin-babel": "^4.2.0"
+  },
+  "dependencies": {
+    "vue-tls": "^1.0.1"
+  },
+  "peerDependencies": {
+    "vue": ">=2.0.0"
+  }
+}
