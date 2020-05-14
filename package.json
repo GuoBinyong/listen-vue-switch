@@ -1,6 +1,6 @@
 {
   "name": "listen-vue-switch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "listen-vue-switch 可让你在指定某类vue组件激活或失活时执行你自定义的操作",
   "main": "dist/listen-vue-switch.cjs.js",
   "module": "dist/listen-vue-switch.esm.js",
@@ -45,7 +45,7 @@
     "rollup-plugin-babel": "^4.2.0"
   },
   "dependencies": {
-    "vue-tls": "^1.0.1"
+    "vnode-tls": "^1.0.0"
   },
   "peerDependencies": {
     "vue": ">=2.0.0"
