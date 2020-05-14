@@ -1,7 +1,7 @@
 {
   "name": "listen-vue-switch",
   "version": "1.0.0",
-  "description": "listen-vue-switch 是用于监听vue组件的激活和失活状态的改变的工具",
+  "description": "listen-vue-switch 可让你在指定某类vue组件激活或失活时执行你自定义的操作",
   "main": "dist/listen-vue-switch.cjs.js",
   "module": "dist/listen-vue-switch.esm.js",
   "types": "types/index.d.ts",
@@ -17,7 +17,11 @@
     "switch",
     "切换",
     "listen vue switch",
-    "监听状态切换"
+    "监听状态切换",
+    "activate",
+    "激活",
+    "deactivate",
+    "失活"
   ],
   "author": "郭斌勇",
   "license": "ISC",
