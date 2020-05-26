@@ -1,11 +1,11 @@
 {
   "name": "listen-vue-switch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "listen-vue-switch 可让你在指定某类vue组件激活或失活时执行你自定义的操作",
   "main": "dist/listen-vue-switch.cjs.js",
   "module": "dist/listen-vue-switch.esm.js",
   "types": "types/index.d.ts",
-  "sideEffects": true,
+  "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/GuoBinyong/listen-vue-switch"
